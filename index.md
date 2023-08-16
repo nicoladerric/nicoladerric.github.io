@@ -2,6 +2,6 @@ Hello and welcome to this blog. Edit the `index.md` file to change this content.
 
 ![Image of fast.ai logo](images/logo.png)
 
-## This is a title
+## This my first Blog!
 
-And you can include links, like this [link to fast.ai](https://www.fast.ai). Posts will appear after this file. 
+For a very useful course on AI and deep learning please check this link [link to fast.ai](https://www.fast.ai).
