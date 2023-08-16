@@ -1,4 +1,4 @@
-![Image of fast.ai logo](images/cristallo_solf_rame.jpg)
+![Image of fast.ai logo](images/cristallo_solf_rame.png)
 
 ## This my first Blog!
 
