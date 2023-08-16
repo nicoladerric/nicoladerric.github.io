@@ -1,4 +1,4 @@
-![Image of fast.ai logo](images/cristallo_solf_rame.png)
+![Immagine di solfato di rame](images/cristallo_solf_rame.png)
 
 ## This my first Blog!
 
