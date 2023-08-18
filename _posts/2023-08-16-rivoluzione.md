@@ -1,76 +1,27 @@
 # La Rivoluzione del Machine Learning
 
-Here's the table of contents:
+Questa il sommario:
 
 1. TOC
 {:toc}
 
-## Basic setup
-
-Jekyll requires blog post files to be named according to the following format:
-
-`YEAR-MONTH-DAY-filename.md`
-
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `filename` is whatever file name you choose, to remind yourself what this post is about. `.md` is the file extension for markdown files.
-
-The first line of the file should start with a single hash character, then a space, then your title. This is how you create a "*level 1 heading*" in markdown. Then you can create level 2, 3, etc headings as you wish but repeating the hash character, such as you see in the line `## File names` above.
-
-## Basic formatting
-
-You can use *italics*, **bold**, `code font text`, and create [links](https://www.markdownguide.org/cheat-sheet/). Here's a footnote [^1]. Here's a horizontal rule:
-
 ---
 
-## Lists
+## Le Origini del Machine Learning
 
-Here's a list:
+Nel 1949, un ricercatore dell'IBM, Arthur Samuel, immaginò e definì un modo per far eseguire ai computer dei compiti, alternativo rispetto alla programmazione tradizionale. In un articolo del 1962, divenuto un classico ("Artificial Intelligence: A Frontier of Automation") [^1] lo stesso autore descrive come la costruzione di programmi atti a svolgere certi compiti, come il riconoscimento di oggetti, risulti estremamente difficile, se non impossibile, per il fatto che occorre spiegare al computer tutti i singoli passaggi del processo fino al dettaglio più minimo (nelle sue parole "in the most exasperating detail"). I computer infatti, aggiunge, "as any programmer will tell you, are giant morons, not giant brains".
+Il cambio di *paradigma* di Samuel, che dette origine alla rivoluzione del "machine learning" (termine reso popolare dallo stesso Samuel) consistette nel ribaltare completamente l'approccio alla programmazione, perchè invece di comunicare al computer i passi precisi richiesti per la soluzione del problema, Samuel ebbe piuttosto l'idea di *mostrare al computer "esempi" del problema da risolvere* e lasciare che il computer (opportunamente programmato, in modo tradizionale) "imparasse" a risolverlo. Questa idea si rivelò rivoluzionaria, tanto che nel 1961 il suo programma per giocare a dama sconfisse il campione dell'epoca nello stato del Connecticut.
+Nello stesso articolo sopra menzionato del 1962, Samuel getta così i semi del machine learning, la cui pianta è cresciuta fino ad oggi, portando i frutti che tutti possiamo apprezzare nei campi più diversi. Nelle sue parole si possono individuare gli elementi e i concetti essenziali dell'apprendimento automatico:
 
-- item 1
-- item 2
+- model and weight assigment
+- automatic means of testing the effectiveness of any current weight assignments in terms of actual performance
+- a mechanism (i.e. another automatic means) for altering the weight assignment so as to maximize the performance
 
-And a numbered list:
+{% include alert.html text="We need not go into the details of such a procedure to see that it could be made entirely automatic and to see that a machine so programmed would **learn** from its experience" %}
 
-1. item 1
-1. item 2
 
-## Boxes and stuff
+## Note
 
-> This is a quotation
-
-{% include alert.html text="You can include alert boxes" %}
-
-...and...
-
-{% include info.html text="You can include info boxes" %}
-
-## Images
-
-![](/images/logo.png "fast.ai's logo")
-
-## Code
-
-General preformatted text:
-
-    # Do a thing
-    do_thing()
-
-Python code and output:
-
-```python
-# Prints '2'
-print(1+1)
-```
-
-    2
-
-## Tables
-
-| Column 1 | Column 2 |
-|-|-|
-| A thing | Another thing |
-
-## Footnotes
-
-[^1]: This is the footnote.
+[^1]: [articolo di Samuel ]()
 
 
