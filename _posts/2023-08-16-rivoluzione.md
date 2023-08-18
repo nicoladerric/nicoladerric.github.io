@@ -1,11 +1,9 @@
 # La Rivoluzione del Machine Learning
 
-Questa il sommario:
+Questo il sommario:
 
 1. TOC
 {:toc}
-
----
 
 ## Le Origini del Machine Learning
 
