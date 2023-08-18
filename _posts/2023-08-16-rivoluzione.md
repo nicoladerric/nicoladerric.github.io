@@ -20,6 +20,6 @@ Nello stesso articolo sopra menzionato del 1962, Samuel getta così i semi del m
 
 ## Note
 
-[^1]: [articolo di Samuel ]()
+[^1]: [The Annals of the American Academy of Political and Social Science, Vol. 340, Automation (Mar., 1962), pp. 10-20 (11 pages)](https://www.jstor.org/stable/1033694)
 
 
