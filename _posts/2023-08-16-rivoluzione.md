@@ -27,7 +27,7 @@ Nello stesso articolo sopra menzionato del 1962, Samuel getta così i semi del m
 - automatic means of testing the effectiveness of any current weight assignments in terms of actual performance
 - a mechanism (i.e. another automatic means) for altering the weight assignment so as to maximize the performance
 
-{% include alert.html text="We need not go into the details of such a procedure to see that it could be made entirely automatic and to see that a machine so programmed would **learn** from its experience" %}
+{% include alert.html text="We need not go into the details of such a procedure to see that it could be made entirely automatic and to see that a machine so programmed would learn from its experience" %}
 
 
 ## Note
