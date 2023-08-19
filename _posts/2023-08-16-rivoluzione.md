@@ -33,12 +33,14 @@ Nello stesso articolo sopra menzionato del 1962, nelle sue parole si possono ind
 
 > Suppose we arrange for some **automatic means of testing** the effectiveness of any **current weight assignment** in terms of **actual performance** and provide a **mechanism for altering the weight assignment** so as to **maximize the performance**. We need not go into the details of such a procedure to see that it could be made entirely automatic and to see that a **machine** so programmed would **learn from its experience**.
 
-Abbiamo quindi, in questa citazione, gli elementi fondanti del machine learning: un sistema che incorpora dei parametri ("weight assignment"), un modo automatico con cui misurare l'efficacia di questi parametri in termini di prestazioni del sistema rispetto ad un obiettivo dato e infine un meccanismo (quindi un altro automatismo) per aggiustare questi parametri in modo da massimizzare le prestazioni del sistema.
+Abbiamo quindi, in questa citazione, gli elementi fondanti del machine learning: [^2] un sistema che incorpora dei parametri ("weight assignment"), un modo automatico con cui misurare l'efficacia di questi parametri in termini di prestazioni del sistema rispetto ad un obiettivo dato e infine un meccanismo (quindi un altro automatismo) per aggiustare questi parametri in modo da massimizzare le prestazioni del sistema.
 Se riusciamo a costruire un sistema (o modello) che, acquisendo dei dati di input, sia in grado, rispetto a una metrica definita, di ottimizzare le sue prestazioni variando i suoi parametri interni, abbiamo di fatto costruito una macchina in grado di "imparare dall'esperienza". 
 
 
 ## Note
 
 [^1]: [The Annals of the American Academy of Political and Social Science, Vol. 340, Automation (Mar., 1962), pp. 10-20 (11 pages)](https://www.jstor.org/stable/1033694)
+[^2]: Practical Deep Learning - Course [chapter 1](https://github.com/fastai/fastbook/blob/master/01_intro.ipynb)
+
 
 
