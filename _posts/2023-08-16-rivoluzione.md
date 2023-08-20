@@ -54,7 +54,8 @@ flowchart LR;
 flowchart LR;
     input ---> template;
     subgraph learner
-        direction LR
+    direction LR
+    model ~~~ testing;
         subgraph model
         parameters --> template;
         end
