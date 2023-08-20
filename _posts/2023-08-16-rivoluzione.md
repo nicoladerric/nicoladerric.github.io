@@ -53,11 +53,11 @@ flowchart LR;
 ```mermaid
 flowchart LR;
     input ---> model;
-    output --> loss;
     subgraph learner
         subgraph model
         parameters --> template;
         end
+    output --> loss;
     model --> predictions;
     predictions --> loss;
     loss -----> |update|parameters;
