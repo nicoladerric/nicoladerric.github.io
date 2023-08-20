@@ -63,7 +63,7 @@ flowchart LR;
         template --> predictions;
         predictions --> loss;
         end
-        loss ---> |update|parameters;
+        loss -------> |update|parameters;
     end
     output --> loss;
     learner --> program
