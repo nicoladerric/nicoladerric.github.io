@@ -55,10 +55,10 @@ flowchart LR;
     input ---> model;
     output --> loss;
     subgraph learner
-    parameters --> model;
     model --> predictions;
+    parameters --> model;
     predictions --> loss;
-    loss ----> |update|parameters;
+    loss ------> |update|parameters;
     end
     learner --> program
 ```
