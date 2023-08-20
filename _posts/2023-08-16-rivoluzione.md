@@ -30,12 +30,12 @@ flowchart LR;
 
 ```mermaid
 flowchart LR;
-    input --> model;
+    input ---> model;
     parameters --> model;
     model ---> predictions;
     predictions --> loss;
     output --> loss;
-    loss -------> |update|parameters;
+    loss -----> |update|parameters;
 ```
 
 Dice in sostanza Samuel che in questo uso "ordinario" del computer occorre necessariamente specificare alla macchina il "come", ovvero il modo esatto con cui si ottiene il risultato (la serie precisa di passi), senza potersi limitare al "cosa" si vuole ottenere, come si farebbe assegnando lo stesso compito ad un essere umano. In altre parole, è utile usare il computer perchè si tratta di una macchina estremamente efficiente e precisa, ma essenzialmente stupida, e quindi l'uomo deve prima "istruirla", programmandola in modo esplicito. La cosa essenziale da notare qui è che non ci sono sconti nel lavoro del pensiero che l'uomo è costretto a fare per risolvere un problema, ma solo (e non è poco) vantaggi nel giungere al risultato in modo più preciso, veloce e affidabile.
