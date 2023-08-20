@@ -42,7 +42,9 @@ E' interessante notare che il risultato di questa procedura, cioè il modello fi
 ## Note
 
 [^1]: [The Annals of the American Academy of Political and Social Science, Vol. 340, Automation (Mar., 1962), pp. 10-20 (11 pages)](https://www.jstor.org/stable/1033694)
-[^2]: from [wikipedia](https://en.wikipedia.org/wiki/Heuristic): A heuristic (/hjʊˈrɪstɪk/; from Ancient Greek εὑρίσκω (heurískō) 'to find, discover'), or heuristic technique, is any approach to problem solving or self-discovery that employs a practical method that is not guaranteed to be optimal, perfect, or rational, but is nevertheless sufficient for reaching an immediate, short-term goal or approximation. Where finding an optimal solution is impossible or impractical, heuristic methods can be used to speed up the process of finding a satisfactory solution.Heuristics can be mental shortcuts that ease the cognitive load of making a decision.Examples that employ heuristics include using trial and error, a rule of thumb or an educated guess. 
+
+[^2]: from [wikipedia](https://en.wikipedia.org/wiki/Heuristic): A heuristic (/hjʊˈrɪstɪk/; from Ancient Greek εὑρίσκω (heurískō) 'to find, discover'), or heuristic technique, is any approach to problem solving or self-discovery that employs a practical method that is not guaranteed to be optimal, perfect, or rational, but is nevertheless sufficient for reaching an immediate, short-term goal or approximation. Where finding an optimal solution is impossible or impractical, heuristic methods can be used to speed up the process of finding a satisfactory solution. Heuristics can be mental shortcuts that ease the cognitive load of making a decision.Examples that employ heuristics include using trial and error, a rule of thumb or an educated guess.
+
 [^3]: [Practical Deep Learning - Course at fast.ai - Chapter 1](https://github.com/fastai/fastbook/blob/master/01_intro.ipynb)
 
 
