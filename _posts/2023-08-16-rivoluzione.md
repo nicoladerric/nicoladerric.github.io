@@ -23,7 +23,13 @@ graph LR;
 
 ```mermaid
 flowchart LR;
-    input --> model;
+    input --> learner;
+    labels --> learner;
+    learner --> program (model)
+```
+
+```mermaid
+flowchart LR;
     parameters --> model;
     model --> predictions;
     predictions --> loss;
