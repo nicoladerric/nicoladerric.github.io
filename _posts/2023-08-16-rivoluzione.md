@@ -57,9 +57,11 @@ flowchart LR;
         subgraph model
         parameters --> template;
         end
-    template --> predictions;
-    predictions --> loss;
-    loss -----> |update|parameters;
+        subgraph testing
+        template --> predictions;
+        predictions --> loss;
+        loss -----> |update|parameters;
+        end
     end
     output --> loss;
     learner --> program
