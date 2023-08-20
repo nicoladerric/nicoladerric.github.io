@@ -30,7 +30,7 @@ flowchart LR;
 
 ```mermaid
 flowchart LR;
-    input ----> model;
+    input --> model;
     subgraph learner
     parameters --> model;
     model --> predictions;
