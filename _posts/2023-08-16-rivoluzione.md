@@ -57,11 +57,10 @@ flowchart LR;
         direction TB
         model ~~~ testing;
         subgraph model
-        parameters --> template --> predictions;
+        parameters --> template;
         end
         subgraph testing
-        template --> predictions;
-        predictions --> loss;
+        template --> predictions --> loss;
         end
         loss --> |update|parameters;
     end
