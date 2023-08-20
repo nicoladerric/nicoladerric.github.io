@@ -22,12 +22,12 @@ graph LR;
 ```
 
 ```mermaid
-graph LR;
+flowchart LR;
     input --> model;
     parameters --> model;
     model --> predictions;
-    labels --> loss;
     predictions --> loss;
+    labels --> loss;
     loss --> parameters;
 ```
 
