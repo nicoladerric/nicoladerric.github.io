@@ -54,14 +54,14 @@ flowchart LR;
 flowchart LR;
     input ---> model;
     output --> loss;
-        subgraph learner
-            subgraph model
-            parameters --> template;
-            end
-        model --> predictions;
-        predictions --> loss;
-        loss -------> |update|parameters;
+    subgraph learner
+        subgraph model
+        parameters --> template;
         end
+    model --> predictions;
+    predictions --> loss;
+    loss -----> |update|parameters;
+    end
     learner --> program
 ```
 
