@@ -47,5 +47,7 @@ E' interessante notare che il risultato di questa procedura, cioè il modello fi
 
 [^3]: [Practical Deep Learning - Course at fast.ai - Chapter 1](https://github.com/fastai/fastbook/blob/master/01_intro.ipynb)
 
+[^4]: [Steps Toward Artificial Intelligence - article by Marvin Minsky](https://web.media.mit.edu/~minsky/papers/steps.html)
+
 
 
