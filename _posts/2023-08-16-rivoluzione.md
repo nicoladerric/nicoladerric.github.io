@@ -18,13 +18,13 @@ Si può caratterizzare in questo caso il risultato che il computer produce come 
 ```mermaid
 graph LR;
     input --> program;
-    program --> results;
+    program --> output;
 ```
 
 ```mermaid
 flowchart LR;
     input --> learner;
-    labels --> learner;
+    output --> learner;
     learner --> program;
 ```
 
