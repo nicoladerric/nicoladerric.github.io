@@ -56,7 +56,7 @@ flowchart LR;
     output --> loss;
         subgraph learner
             subgraph model
-            parameters --> template model;
+            parameters --> template;
             end
         model --> predictions;
         predictions --> loss;
