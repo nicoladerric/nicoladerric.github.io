@@ -52,7 +52,7 @@ flowchart LR;
 
 ```mermaid
 flowchart LR;
-    input ---> model;
+    input ---> template;
     subgraph learner
         subgraph model
         parameters --> template;
