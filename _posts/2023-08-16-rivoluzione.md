@@ -25,7 +25,7 @@ graph LR;
 flowchart LR;
     input --> learner;
     labels --> learner;
-    learner --> program (model);
+    learner --> program;
 ```
 
 ```mermaid
