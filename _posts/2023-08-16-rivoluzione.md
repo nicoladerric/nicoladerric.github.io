@@ -30,9 +30,9 @@ flowchart LR;
 
 ```mermaid
 flowchart LR;
-    input ---> model;
     parameters --> model;
-    model ---> predictions;
+    input ----> model;
+    model --> predictions;
     predictions --> loss;
     output --> loss;
     loss -----> |update|parameters;
