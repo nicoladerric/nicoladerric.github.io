@@ -21,25 +21,6 @@ graph LR;
     program --> output;
 ```
 
-```mermaid
-flowchart LR;
-    input --> learner;
-    output --> learner;
-    learner --> program;
-```
-
-```mermaid
-flowchart LR;
-    input --> model;
-    subgraph learner
-    parameters --> model;
-    model --> predictions;
-    predictions --> loss;
-    loss ---> |update|parameters;
-    end
-    output --> loss;
-    learner --> program
-```
 Dice in sostanza Samuel che in questo uso "ordinario" del computer occorre necessariamente specificare alla macchina il "come", ovvero il modo esatto con cui si ottiene il risultato (la serie precisa di passi), senza potersi limitare al "cosa" si vuole ottenere, come si farebbe assegnando lo stesso compito ad un essere umano. In altre parole, è utile usare il computer perchè si tratta di una macchina estremamente efficiente e precisa, ma essenzialmente stupida, e quindi l'uomo deve prima "istruirla", programmandola in modo esplicito. La cosa essenziale da notare qui è che non ci sono sconti nel lavoro del pensiero che l'uomo è costretto a fare per risolvere un problema, ma solo (e non è poco) vantaggi nel giungere al risultato in modo più preciso, veloce e affidabile.
 Nel definire questo uso del computer "comune" o "ordinario" Samuel non vuole certo sottovalutare l'enorme impatto economico e sociale dell'automazione, che non esita a definire una "rivoluzione", ma piuttosto ridurla ai suoi termini essenziali, sottolineando come essa sia frutto dell'applicazione diretta di elementari procedure di calcolo a problemi che, per loro natura, sono di "routine" ovvero riconducibili a processi descrivibili mediante un insieme di regole esplicite.
 
@@ -61,8 +42,31 @@ Nello stesso articolo sopra menzionato del 1962, nelle sue parole si possono ind
 
 Abbiamo, in questa citazione, tutti gli elementi fondanti del machine learning: [^3] in primo luogo un programma (o per usare una terminologia più moderna un "modello") che incorpora dei parametri, cioè delle variabili a cui può essere assegnato un valore ("weight assignment"), che determinano il comportamento del programma stesso; in secondo luogo un modo automatico con cui misurare l'efficacia di questi parametri in termini di prestazioni del modello rispetto ad un obiettivo dato e infine un meccanismo (quindi un altro procedimento automatico) con cui aggiustare questi parametri in modo da massimizzare tali prestazioni.
 Se disponiamo di questi elementi possiamo dunque costruire un sistema che, acquisendo dei dati di input, sia in grado, rispetto a una metrica definita, di ottimizzare le sue prestazioni variando i suoi parametri interni, fino ad ottenere il risultato desiderato. Così facendo, abbiamo, di fatto, costruito una macchina in grado di "imparare dall'esperienza". 
+
+```mermaid
+flowchart LR;
+    input --> learner;
+    output --> learner;
+    learner --> program;
+```
+
+```mermaid
+flowchart LR;
+    input --> learner;
+    subgraph learner
+    parameters --> model;
+    model --> predictions;
+    predictions --> loss;
+    loss ---> |update|parameters;
+    end
+    output --> loss;
+    learner --> program
+```
+
 L'addestramento di modelli sviluppati secondo la modalità sopra esposta è ciò che viene definito "machine learning".
 E' interessante notare che il risultato di questa procedura, cioè il modello finale che incorpora i valori ottimi dei parametri, può considerarsi a tutti gli effetti un altro tipo di programma per computer, ottenuto attraverso un processo di apprendimento, ma essenzialmente sempre un programma, che a partire da un *input* dato andrà a generare il suo *output*.
+
+
 
 Steps Toward Artificial Intelligence - Marvin Minsky [^4]
 
