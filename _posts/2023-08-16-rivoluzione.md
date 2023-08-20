@@ -54,10 +54,10 @@ flowchart LR;
 flowchart LR;
     input ---> template;
     subgraph learner
-        direction LR
         subgraph model
         parameters --> template;
         end
+        model -.- testing;
         subgraph testing
         template --> predictions;
         predictions --> loss;
