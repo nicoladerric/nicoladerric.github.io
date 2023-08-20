@@ -52,14 +52,14 @@ flowchart LR;
 
 ```mermaid
 flowchart LR;
-    input --> learner;
+    input ---> model;
+    output --> loss;
     subgraph learner
     parameters --> model;
     model --> predictions;
     predictions --> loss;
-    loss ---> |update|parameters;
+    loss ----> |update|parameters;
     end
-    output --> loss;
     learner --> program
 ```
 
