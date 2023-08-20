@@ -55,7 +55,7 @@ flowchart LR;
     input ---> model;
     output --> loss;
     subgraph learner
-    subgraph
+    subgraph model
     parameters --> model;
     end
     model --> predictions;
