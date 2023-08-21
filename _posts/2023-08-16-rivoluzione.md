@@ -71,9 +71,10 @@ flowchart LR;
 L'addestramento di modelli sviluppati secondo la modalità sopra esposta è ciò che viene definito "machine learning".
 E' interessante notare che il risultato di questa procedura, cioè il modello finale che incorpora i valori ottimi dei parametri, può considerarsi a tutti gli effetti un altro tipo di programma per computer, ottenuto attraverso un processo di apprendimento, ma essenzialmente sempre un programma, che a partire da un *input* dato andrà a generare il suo *output*.
 
+Non si può non menzionare che nello storico articolo del 1950 scritto sulla rivista "Mind" [^5], Alan Turing si poneva la seguente domanda "instead of trying to produce a programme to simulate the adult mind, why not rather try to produce one which simulates the child’s? If this were then subjected to an appropriate course of education one would obtain the adult brain". Questo è esattamente la direzione intrapresa dal "machine learning" negli anni successivi...
 
 
-Steps Toward Artificial Intelligence - Marvin Minsky [^4]
+Altro articolo degno di nota: Steps Toward Artificial Intelligence - Marvin Minsky [^4]
 
 
 ## Note
@@ -85,6 +86,8 @@ Steps Toward Artificial Intelligence - Marvin Minsky [^4]
 [^3]: [Practical Deep Learning - Course at fast.ai - Chapter 1](https://github.com/fastai/fastbook/blob/master/01_intro.ipynb)
 
 [^4]: [Steps Toward Artificial Intelligence - article by Marvin Minsky](https://web.media.mit.edu/~minsky/papers/steps.html)
+
+[^5]: [Computing machinery and intelligence - A.Turing](https://academic.oup.com/mind/article/LIX/236/433/986238)
 
 
 
