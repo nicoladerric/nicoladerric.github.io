@@ -15,7 +15,7 @@ La "magia" del computer risiede infatti non tanto in quello che fa, ma nella *ve
 Questa sequenza tuttavia, è bene ricordarlo, deve essere sempre prima specificata da un programmatore umano, il quale deve fare lo sforzo cognitivo di identificare in anticipo tutti i passi necessari alla soluzione del problema (l'*algoritmo*) e tradurli in un insieme di istruzioni in un qualche linguaggio eseguibile dalla macchina (il *programma*), affinchè questa sia in grado di fornire, al termine della computazione, la soluzione cercata a partire dai dati di ingresso.
 Si può caratterizzare in questo caso il risultato che il computer produce come derivato interamente dai dati di *input* a cui vengono applicate una serie di *regole ben definite* che trasformano questi dati in altri dati organizzati in modo differente, denominati *output*, secondo l'obiettivo desiderato dal programmatore.
 
-![](/images/mermaid-diagram-2024-05-11-174125.png "")
+![](/images/mermaid-diagram-2024-05-11-174125.png)
 
 Dice in sostanza Samuel che in questo uso "ordinario" del computer occorre necessariamente specificare alla macchina il "come", ovvero il modo esatto con cui si ottiene il risultato (la serie precisa di passi), senza potersi limitare al "cosa" si vuole ottenere, come si farebbe assegnando lo stesso compito ad un essere umano. In altre parole, è utile usare il computer perchè si tratta di una macchina estremamente efficiente e precisa, ma essenzialmente stupida, e quindi l'uomo deve prima "istruirla", programmandola in modo esplicito. La cosa essenziale da notare qui è che non ci sono sconti nel lavoro del pensiero che l'uomo è costretto a fare per risolvere un problema, ma solo (e non è poco) vantaggi nel giungere al risultato in modo più preciso, veloce e affidabile.
 Nel definire questo uso del computer "comune" o "ordinario" Samuel non vuole certo sottovalutare l'enorme impatto economico e sociale dell'automazione, che non esita a definire una "rivoluzione", ma piuttosto ridurla ai suoi termini essenziali, sottolineando come essa sia frutto dell'applicazione diretta di elementari procedure di calcolo a problemi che, per loro natura, sono di "routine" ovvero riconducibili a processi descrivibili mediante un insieme di regole esplicite.
@@ -39,7 +39,7 @@ Nello stesso articolo sopra menzionato del 1962, nelle sue parole si possono ind
 Abbiamo, in questa citazione, tutti gli elementi fondanti del machine learning: [^3] in primo luogo un programma (o per usare una terminologia più moderna un "modello") che incorpora dei parametri, cioè delle variabili a cui può essere assegnato un valore ("weight assignment"), che determinano il comportamento del programma stesso; in secondo luogo un modo automatico con cui misurare l'efficacia di questi parametri in termini di prestazioni del modello rispetto ad un obiettivo dato e infine un meccanismo (quindi un altro procedimento automatico) con cui aggiustare questi parametri in modo da massimizzare tali prestazioni.
 Se disponiamo di questi elementi possiamo dunque costruire un sistema che, acquisendo dei dati di input, sia in grado, rispetto a una metrica definita, di ottimizzare le sue prestazioni variando i suoi parametri interni, fino ad ottenere il risultato desiderato. Così facendo, abbiamo, di fatto, costruito una macchina in grado di "imparare dall'esperienza". 
 
-![](/images/mermaid-diagram-2024-05-11-174332.png "")
+![](/images/mermaid-diagram-2024-05-11-174332.png)
 
 ![](/images/mermaid-diagram-2024-05-11-173329.png "Inside the Learner")
 
