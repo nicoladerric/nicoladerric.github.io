@@ -50,23 +50,7 @@ flowchart LR;
     learner --> program;
 ```
 
-```mermaid
-flowchart LR;
-    input ---> template;
-    subgraph learner
-    direction LR
-    model ~~~ testing;
-        subgraph model
-        parameters --> template;
-        end
-        subgraph testing
-        template --> predictions --> loss;
-        end
-        loss --> |update|parameters;
-    end
-    output --> loss;
-    learner --> program
-```
+
 
 L'addestramento di modelli sviluppati secondo la modalità sopra esposta è ciò che viene definito "machine learning".
 E' interessante notare che il risultato di questa procedura, cioè il modello finale che incorpora i valori ottimi dei parametri, può considerarsi a tutti gli effetti un altro tipo di programma per computer, ottenuto attraverso un processo di apprendimento, ma essenzialmente sempre un programma, che a partire da un *input* dato andrà a generare il suo *output*.
