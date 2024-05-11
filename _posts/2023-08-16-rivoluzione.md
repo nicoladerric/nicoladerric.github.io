@@ -50,7 +50,7 @@ flowchart LR;
     learner --> program;
 ```
 
-![](/images/ "Inside the Learner")
+![](/images/mermaid-diagram-2024-05-11-173329.png "Inside the Learner")
 
 
 L'addestramento di modelli sviluppati secondo la modalità sopra esposta è ciò che viene definito "machine learning".
