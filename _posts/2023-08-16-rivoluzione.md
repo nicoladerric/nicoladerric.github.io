@@ -87,7 +87,7 @@ Altro articolo degno di nota: Steps Toward Artificial Intelligence - Marvin Mins
 
 [^3]: [Practical Deep Learning - Course at fast.ai - Chapter 1](https://github.com/fastai/fastbook/blob/master/01_intro.ipynb)
 
-[^4]: [Steps Toward Artificial Intelligence - article by Marvin Minsky](https://web.media.mit.edu/~minsky/papers/steps.html)
+[^4]: [Steps Toward Artificial Intelligence - article by Marvin Minsky](https://courses.csail.mit.edu/6.803/pdf/steps.pdf)
 
 [^5]: [Computing machinery and intelligence - A.Turing](https://academic.oup.com/mind/article/LIX/236/433/986238)
 
